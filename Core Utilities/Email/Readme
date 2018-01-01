@@ -1,0 +1,26 @@
+Author : Sairam Sekhar P
+Email  : sairam.poluru@gmail.com
+---------------------------------------------------------------------------------------
+Environment Setup
+---------------------------------------------------------------------------------------
+1) Requirements : IDE (Eclipse/Netbeans), Java SDK, Mail.jar and Activation.jar
+
+Note : Mail.jar and Activation.jar were already included in project ypu download. You don't need to download again. 
+
+2) Execution Process :
+
+	Step 1 : Extract the downloaded zip file into a folder
+	
+	Step 2 : Start eclipse(IDE as per my requirement, you can also use any other) 
+	
+	Step 3 : Goto File --> Import --> General --> Existing Projects into workspace --> Click Next --> Select root directory --> Click on Browse --> Select extracted "Email" folder downloaded from github.
+	
+	Step 4 : After successful Import, Right-click on the project folder --> Build path --> Configure Build path --> configure your Java compiler (if any errors)
+	
+	Step 5 : Enter your email and password of Google account in SendGmail.java at Line Number : 41
+	
+	Step 6 : Go to -> https://myaccount.google.com/lesssecureapps?pli=1
+	
+	Step 7 : Allow Less Secure apps : change to ON (OFF by default).
+	
+	Step 7 : Run the project to test.
