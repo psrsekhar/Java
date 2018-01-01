@@ -1,7 +1,8 @@
 Java Collections Framework : Collections in java is a framework that provides an architecture to store and manipulate the group of objects.
 The Collection interface (java.util.Collection) and Map interface (java.util.Map) are two main root interfaces of Java collection classes.
 
-Java Collections Interfaces : Collection Interface, Iterator Interface, Set Interface, List Interface, Queue Interface, Dequeue Interface, Map Interface, ListIterator Interface, SortedSet Interface, SortedMap Interface.
+Java Collections Interfaces : Collection Interface, Iterator Interface, Set Interface, List Interface, Queue Interface, Dequeue Interface,                               Map Interface, ListIterator Interface, SortedSet Interface, SortedMap Interface.
+
 Java Collections Classes : HashSet Class, TreeSet Class, ArrayList Class, LinkedList Class, HashMap Class, TreeMap Class, PriorityQueue Class
 
 Collection : Root interface with basic methods like add(), remove(), 
@@ -22,5 +23,4 @@ Map   : Contains Key value pairs. Doesn't allow duplicates.
         Example implementation are HashMap and TreeMap. 
         TreeMap implements SortedMap.        
 
-The difference between Set and Map interface is, in Set we have only
-keys, but in Map, we have key value pairs.
+The difference between Set and Map interface is, in Set we have only keys, but in Map, we have key value pairs.
